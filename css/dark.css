@@ -1,0 +1,28 @@
+body.dark-theme {
+    background-color:#112334;
+}
+body.dark-theme .transaction-section .section-title h2,
+body.dark-theme .transaction-section .container .cards .card h4,
+body.dark-theme .accounts-section .cash-card h2,
+body.dark-theme .payment .cards-payement h2,
+body.dark-theme .payment .cards-payement h3 ,
+body.dark-theme .transfer .Pay .innerpay h1,
+body.dark-theme .customers .title h2 ,
+body.dark-theme .box-customer .tital-pra h4
+{
+    color:var(--main-color);
+}
+body.dark-theme .transfer .Pay .innerpay p{
+    color: white;
+}
+body.dark-theme .transaction-section .container .cards .card,
+body.dark-theme .box-customer
+{
+    background-color:#182b3e;
+    backdrop-filter: blur(10px);
+
+}
+body.dark-theme .customers {
+    background-color: #112334;
+}
+

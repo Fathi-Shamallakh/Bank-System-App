@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Larsseit';
+    src: url(../Fonts/Larsseit.otf);
+}
+@font-face {
+    font-family: 'Larsseit-Thin';
+    src: url(../Fonts/Larsseit-Thin.otf);
+}
+@font-face {
+    font-family: 'Larsseit-Light';
+    src: url(../Fonts/Larsseit-Light.otf);
+}
+:root{
+    --main-color:#72E485;
+    --yellow-color:#F9D658;
+    --heading-color:#0d0448;
+    --text-color:#101010;
+    --gray-color:#EEEDF0;
+    --light-color : #F8F8F8;
+}
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    font-family: 'Larsseit'
+}
+ul{
+    list-style-type: none
+}
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* small */
+@media (min-width:768px){
+    .container{
+        width: 750px;
+    }
+}
+/* Medium */
+@media (min-width:992px){
+    .container{
+        width:970px;
+    }
+}
+/* Large */
+@media (min-width:1200px){
+    .container{
+         width:1170px;
+    }
+}
+a{
+    text-decoration: none;
+}
